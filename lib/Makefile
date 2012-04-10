@@ -12,7 +12,12 @@ lib-y := ctype.o string.o vsprintf.o cmdline.o \
 	 idr.o int_sqrt.o extable.o prio_tree.o \
 	 sha1.o irq_regs.o reciprocal_div.o argv_split.o \
 	 proportions.o prio_heap.o ratelimit.o show_mem.o \
+<<<<<<< HEAD
 	 is_single_threaded.o plist.o decompress.o flex_array.o
+=======
+	 is_single_threaded.o plist.o decompress.o \
+	 memcopy.o memory_alloc.o
+>>>>>>> b9c297c...     Inc: Hardware acceleration for ICS.
 
 lib-$(CONFIG_MMU) += ioremap.o
 lib-$(CONFIG_SMP) += cpumask.o
